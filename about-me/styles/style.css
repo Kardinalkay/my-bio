@@ -99,6 +99,10 @@ header {
     background-color: #93F2C8;
 }
 
+header.row {
+    padding-bottom: 20px;
+}
+
 footer {
     background-color: #93F2C8;
 }
