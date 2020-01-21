@@ -1,0 +1,253 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /background: black;
+    font: 14px/35px arial, sans-serif;
+}
+
+.body-container {
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(19,31,52,.8);
+}
+
+p {
+    line-height: 1.8;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    /font-family: ;
+}
+
+address {
+    font-style: normal;
+}
+
+header p, footer p {
+    color: black;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+h1, h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.7em;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block; 
+}
+
+.user-avatar{
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.user-avatar figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font: bold 35px/55px  Raleway;
+
+    background: #93F2C8;
+    opacity: .2;
+    transition: opacity .2s;
+}
+
+.user-avatar:hover figcaption {
+    opacity: .7
+;            }
+
+.my_profile_img {
+    border: 1px solid #93F2C8;
+}
+
+.my_profile_img {
+    transform: scale(0.7);
+    transform-origin: 50% 0%;
+}
+
+.img_container img {
+    margin: 0 auto;
+    opacity: 0.5
+}
+
+header {
+    padding: 20px 10px 40px;
+    position: relative;
+    font: normal 18px/250% Raleway;
+    background-color: #93F2C8;
+}
+
+footer {
+    background-color: #93F2C8;
+}
+
+header h1 {
+    font-weight: normal;
+    position: relative;
+}
+
+header .college-no, header .college-name {
+    display: block;
+    padding: 5px;
+}
+
+header .class-name {
+    font-weight: 300;
+    font-size: 0.5em;
+    position: absolute;
+    padding: 10px;
+    right: 30px;
+    top: -20px;
+    background: rgba(0,0,0,.2)
+}
+
+@media (max-width: 767px) {
+    header .class-name {
+        position: relative;
+        display: block;
+        right: auto;
+        top: auto;
+    }
+}
+
+nav.main_nav {
+    min-height: 63px;
+}
+
+nav.main_nav .main_nav_wrap {
+    width: 100%;
+    display: block;
+    background-color: #414141;
+    transition: background-color .2s;
+}
+
+nav.main_nav .main_nav_wrap:hover {
+    background-color: black;
+}
+
+nav.main_nav .main_nav_wrap ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+nav.main_nav .main_nav_wrap ul li a {
+    font-size: 1.2em;
+    padding: 20px;
+    display: block;
+    color: #fff;
+    transition: all 0.3s;
+    background-color: transparent;
+}
+
+.panel {
+    font-family: Raleway;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    padding: 20px 50px; 
+}
+
+h1:not(.masthead-heading) {
+    color: snow;
+    letter-spacing: 1px;
+    text-shadow: 1px 2px 1px rgba(240,240,240,.4);
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+   /* display: flex;
+    flex-wrap: wrap;*/
+    margin: 0 auto;
+}
+
+.flex.row {
+    display: flex;
+    /max-width: none;
+}
+
+.eight {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.four {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.six {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.user-avatar .fa-user {
+    font-size: 10em;
+}
+
+@media (min-width: 1200px)
+.row {
+    max-width: 1140px;
+}
+
+@media (min-width: 992px)
+.row {
+    max-width: 960px;
+}
+
+@media (min-width: 768px)
+.row {
+    max-width: 720px;
+}
+
+@media (min-width: 576px)
+.row {
+    max-width: 540px;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    /color: inherit;
+    text-decoration: none;
+}
+
